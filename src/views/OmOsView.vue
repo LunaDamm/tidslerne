@@ -1,6 +1,7 @@
 <template>
-  <div class="about">
-    <h1>APT APT, APT APT, APT APT, AH! uh-huh uh-huh</h1>
+  <div class="">
+    <h1 class="text-blue-500">APT APT, APT APT, APT APT, AH! uh-huh uh-huh</h1>
+    <p>klsajdklsajdaskl</p>
 
   </div>
 </template>
