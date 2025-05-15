@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
+  <header class="bg-bag-green">
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper w-3/4">
@@ -53,6 +53,18 @@ import { RouterLink, RouterView } from 'vue-router'
   </header>
 
   <RouterView />
+
+
+  <footer>
+    <div class=" w-3/4">
+      <nav class="">
+        <RouterLink to="/privatpolitik">Privatpolitik</RouterLink>
+        <RouterLink to="/vedtægter">Vedtægter</RouterLink>
+        <RouterLink to="/søg-legater">Søg Legater</RouterLink>
+        <a href="https://medlem.tidslerne.dk/">Login/Tilmeld</a>
+      </nav>
+    </div>
+  </footer>
 </template>
 
 <style scoped>
